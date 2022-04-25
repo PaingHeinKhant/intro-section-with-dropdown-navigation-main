@@ -1,0 +1,81 @@
+
+$border-radius: 15px;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-pos{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+
+.con-page-one h1{
+  font-size: 80px;
+}
+.nav-pos{
+  position: absolute;
+  top: 0;
+}
+
+.cli-logo-width{
+  width: 80px !important;
+}
+
+.client-logo{
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-pos{
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  }
+  .con-page-one h1{
+    font-size: 30px;
+    margin-top: 60px!important;
+    text-align: center;
+  }
+  .con-page-one p{
+    text-align: center;
+    margin-top: 0px !important;
+  }
+
+  .login-mobile{
+    display: block !important;
+
+  }
+
+
+  .btn-cen-mobile{
+    text-align: center !important;
+
+  }
+  .btn-learn{
+    text-align: center !important;
+  }
+
+  .cli-logo-width{
+    width: 60px !important;
+  }
+
+  .client-logo{
+    margin:30px 15px;
+  }
+
+  .w-img{
+    margin-top: 100px!important;
+  }
+
+
+}
